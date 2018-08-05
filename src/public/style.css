@@ -1,0 +1,33 @@
+body{
+    background-color: aquamarine;
+    margin: 15%;
+    
+}
+
+.app{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: space-between;
+}
+
+.get{
+    width: 10%;
+    margin-bottom: 30px;
+
+}
+
+.form{
+
+    margin-bottom: 40px;
+    width: 100%;
+}
+.input{
+    width: 60%;
+}
+.table{
+    border: 3px solid blue;
+    width: 35%;
+}

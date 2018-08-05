@@ -2,23 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Anime API</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+<div class="app">
+    <h1 class="title">Anime API</h1>
 
-    <h1>Anime API</h1>
-
-    <button id="getProducts">
+    <button id="getProducts" class="get">
       Get Products
     </button>
 
-    <form id="productForm">
-      <input type="text" id="newProduct">
+    <form id="productForm" class="form">
+      <input type="text" id="newProduct" class="input">
       <button type="submit">Create Product</button>
     </form>
     <hr>
 
-    <table>
+    <table class="table">
       <thead>
         <tr>
           <th>ID</th>
@@ -28,6 +29,8 @@
       </thead>
       <tbody></tbody>
     </table>
+
+</div>
 
     
     <script
